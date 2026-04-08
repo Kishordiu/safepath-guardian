@@ -69,14 +69,14 @@ export function MapCard({
 
         {expectedRoute.length > 1 && (
           <Polyline
-            positions={expectedRoute.map(c => [c.lat, c.lng])}
+            positions={expectedRoute.map(c => [c.lat, c.lng] as L.LatLngTuple)}
             pathOptions={{ color: 'hsl(220,70%,45%)', weight: 4, opacity: 0.4, dashArray: '8 8' }}
           />
         )}
 
         {actualRoute.length > 1 && (
           <Polyline
-            positions={actualRoute.map(c => [c.lat, c.lng])}
+            positions={actualRoute.map(c => [c.lat, c.lng] as L.LatLngTuple)}
             pathOptions={{ color: 'hsl(185,60%,42%)', weight: 4, opacity: 0.9 }}
           />
         )}
