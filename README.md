@@ -1,43 +1,37 @@
-# SafePath Guardian
+# SAFEPATH GUARDIAN
 
-> **A safety-focused location intelligence interface for real-world journeys.**
+![SAFEPATH GUARDIAN cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:07110E,100:15352C&height=230&text=SAFEPATH%20GUARDIAN&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=LOCATION%20%2F%20SAFETY%20INTELLIGENCE&descColor=999991&descSize=12&descAlignY=66&animation=fadeIn)
 
-SafePath Guardian is a web prototype exploring how maps, location context and safety-oriented workflows can be brought together in a clear, responsive interface.
+> **LOCATION / SAFETY INTELLIGENCE.**
 
-## Highlights
+## THE PREMISE
 
-- Interactive map-oriented experience
-- Location-aware safety workflows
-- Responsive dashboard patterns
-- Search, navigation and status-oriented UI
-- Component-driven React architecture
+SafePath Guardian explores how maps and safety context can become one coherent journey interface—useful information at the right moment rather than a map surrounded by unrelated controls.
 
-## Stack
+## THE EXPERIENCE
 
-React 18 · TypeScript · Vite · Tailwind CSS · Leaflet · React Leaflet · Recharts · shadcn/ui
+**Put context next to location.**  \n**Make the route readable.**  \n**Keep safety signals calm and actionable.**
 
-## Run locally
+## THE SYSTEM
 
-```bash
-npm install
-npm run dev
-```
+Leaflet/React Leaflet provide the geographic layer, while React, Recharts and reusable UI components shape the safety-oriented workflow.
 
-Production build:
+## THE STACK
+
+React 18 · TypeScript · Vite · Leaflet · React Leaflet · Recharts · shadcn/ui · Tailwind CSS
+
+## RUN
 
 ```bash
-npm run build
-npm run preview
+npm install\nnpm run dev
 ```
 
-## Status
+## PROJECT STATE
 
-**Safety product prototype / active development**
+**Safety-focused location prototype**
 
-## Author
-
-**K. Kishor Kumar** · [GitHub @Kishordiu](https://github.com/Kishordiu)
+The repository documents the capabilities that are actually implemented; future integrations are intentionally separated from the current product surface.
 
 ---
 
-<p align="center">Technology designed around safer journeys.</p>
+<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
