@@ -10,7 +10,9 @@ SafePath Guardian explores how maps and safety context can become one coherent j
 
 ## THE EXPERIENCE
 
-**Put context next to location.**  \n**Make the route readable.**  \n**Keep safety signals calm and actionable.**
+**Put context next to location.**  
+**Make the route readable.**  
+**Keep safety signals calm and actionable.**
 
 ## THE SYSTEM
 
