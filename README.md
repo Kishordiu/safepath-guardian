@@ -2,51 +2,56 @@
 
 # SAFEPATH GUARDIAN
 
-> **LOCATION / SAFETY INTELLIGENCE.**
+**A child-journey safety product concept focused on route context, explainable alerts, and parent/school workflows.**
 
-## THE PREMISE
+SafePath Guardian explores how a safety interface could combine location context, route expectations, incident review, and escalation steps. The repository contains a React interface with sample data and explanatory flows. Its descriptions of wearables, cellular connectivity, predictive risk scoring, and escalation are proposed system behaviour—not proof that physical devices or live alert services are connected.
 
-SafePath Guardian explores how maps and safety context can become one coherent journey interface—useful information at the right moment rather than a map surrounded by unrelated controls.
+## The proposed safety loop
 
-## THE EXPERIENCE
+```text
+Location / movement signals
+        │
+        ▼
+Route and timing context
+        │
+        ▼
+Potential anomaly + explanation
+        │
+        ▼
+Parent / school review
+        │
+        ▼
+Escalation pathway (requires real integration)
+```
 
-**Put context next to location.**  
-**Make the route readable.**  
-**Keep safety signals calm and actionable.**
+## Interface areas
 
-## THE SYSTEM
+- **Landing and how-it-works:** Explain the proposed product flow.
+- **Parent and school views:** Explore different operator needs and information boundaries.
+- **Route and location language:** Make journey context central to the experience.
+- **Alert and escalation concepts:** Show how a concern could be communicated and reviewed.
 
-Leaflet/React Leaflet provide the geographic layer, while React, Recharts and reusable UI components shape the safety-oriented workflow.
+## Stack
 
-## THE STACK
+React · TypeScript · Vite · React Router · Leaflet-related map tooling · Tailwind CSS
 
-React 18 · TypeScript · Vite · Leaflet · React Leaflet · Recharts · shadcn/ui · Tailwind CSS
+## Run locally
 
-## RUN
-
-Requirements: Node.js and npm.
+**Requirements:** Node.js and npm.
 
 ```bash
+git clone https://github.com/Kishordiu/safepath-guardian.git
+cd safepath-guardian
 npm ci
 npm run dev
 ```
 
-Vite prints the local development URL. Run these checks before deployment:
+The local URL is printed by Vite. The repository also includes test tooling; run the configured tests before preparing a release.
 
-```bash
-npm run build
-npm run lint
-npm test
-```
+## Non-negotiable safety boundary
 
-This repository is a prototype. Test location permissions, fallback states and connected services on the target device before relying on it.
-
-## PROJECT STATE
-
-**Safety-focused location prototype**
-
-The repository documents the capabilities that are actually implemented; future integrations are intentionally separated from the current product surface.
+**This is not a child-tracking service or emergency-response system.** Do not assume that GPS, a wearable badge, a cellular/GSM connection, geofencing, AI anomaly detection, pickup verification, SMS, email, or phone escalation are live or reliable because they are described in a concept screen. Do not use this prototype to make decisions about a real child's safety. A real deployment would require verified hardware and service integrations, robust consent and access controls, privacy/security review, field testing, and a documented emergency fallback.
 
 ---
 
-<p align="center"><strong>K. KISHOR KUMAR</strong><br><sub>ENGINEERING / PRODUCT / SYSTEMS</sub></p>
+<p align="center"><sub>DIU FOUNDRY · SAFETY EXPERIENCE / HUMAN-CENTRED SYSTEMS</sub></p>
