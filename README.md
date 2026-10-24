@@ -1,6 +1,4 @@
-# SAFEPATH GUARDIAN
-
-![SAFEPATH GUARDIAN cinematic hero](https://capsule-render.vercel.app/api?type=rect&color=0:07110E,100:15352C&height=230&text=SAFEPATH%20GUARDIAN&fontColor=F3F3EE&fontSize=40&fontAlignY=38&desc=LOCATION%20%2F%20SAFETY%20INTELLIGENCE&descColor=999991&descSize=12&descAlignY=66&animation=fadeIn)
+![SAFEPATH GUARDIAN — bespoke brushed-metal project artwork](./assets/readme-metal-hero.svg)
 
 > **LOCATION / SAFETY INTELLIGENCE.**
 
