@@ -1,5 +1,7 @@
 ![SAFEPATH GUARDIAN — bespoke brushed-metal project artwork](./assets/readme-metal-hero.svg)
 
+# SAFEPATH GUARDIAN
+
 > **LOCATION / SAFETY INTELLIGENCE.**
 
 ## THE PREMISE
